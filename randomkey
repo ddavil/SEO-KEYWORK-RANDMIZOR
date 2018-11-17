@@ -1,0 +1,15 @@
+import string
+import random
+a=['gps', 'car', '4g','vehicle','in','on', '3g', 'tracker','tracking','for','2g']
+b=['gps', 'car', '4g','vehicle','in','on', '3g', 'tracker','tracking','for','2g']
+d=['gps', 'car', '4g','vehicle','in','on', '3g', 'tracker','tracking','for','2g']
+e=['gps', 'car', '4g','vehicle','in','on', '3g', 'tracker','tracking','for','2g']
+h=random.choice(a)
+g=random.choice(a)
+d=random.choice(a)
+
+print h+" "+g
+print g+" "+d+" "+h
+print g+" "+h+" "+d
+
+
